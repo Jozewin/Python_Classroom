@@ -29,8 +29,8 @@ U - unicode string
 
 #______________________________________
 
-n2 = np.array(["Hi", 1, 2, 3, 4, 5, 6])
-print("Heterogeneous List :-", n2)
+n2 = np.array([ 1, 2, 3, 4, 5, 6])
+print("Heterogeneous List :-", n2.dtype)
 
 '''
 NumPy is constrained to arrays that all contain the same type. If types do not match, NumPy will upcast if possible

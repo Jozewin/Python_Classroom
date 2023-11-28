@@ -5,7 +5,7 @@ seed with a set value in order to ensure that the same random arrays are generat
 np.random.seed(0) will generate set of same random values everytime we run the code
 changing the seed will change the output result but the output will be same for that respective seed
 '''
-np.random.seed(0)
+np.random.seed(1)
 random_array = np.random.rand(3,3)
 
 print("random array:", random_array)
@@ -29,7 +29,7 @@ itemsize => which lists the size (in bytes)
 nbytes => which lists the total size (in bytes) of the array:
 '''
 
-print("x3 ndim: ", x3.ndim)
+print("x3 ndim: ", x2.ndim)
 print("x3 shape:", x3.shape)
 print("x3 size: ", x3.size)
 print("dtype:", x3.dtype)

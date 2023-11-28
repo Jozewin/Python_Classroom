@@ -7,7 +7,6 @@ print("Integer List is ", L)
 # Similar List in String
 
 L1 = ["Hello", "1", "2", "3", "4"]
-
 print("String List is ", L)
 
 # Heterogeneous List
